@@ -12,6 +12,12 @@
 		173559792145890200716916 /* icons8-clear-symbol-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 173559782145890200716916 /* icons8-clear-symbol-25.png */; };
 		1735597B2145894D00716916 /* icons8-happy-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1735597A2145894D00716916 /* icons8-happy-filled-25.png */; };
 		1735597D21458A0E00716916 /* icons8-backspace-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1735597C21458A0E00716916 /* icons8-backspace-filled-25.png */; };
+		17E59AB621A05B8D00E920B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA417213D8DDF0055C300 /* ViewController.swift */; };
+		17E59ABB21A05D6E00E920B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FBA41C213D8DE20055C300 /* Assets.xcassets */; };
+		17E59AC321A0829300E920B6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E59AC221A0829300E920B6 /* Data.swift */; };
+		17E59AC421A086AF00E920B6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E59AC221A0829300E920B6 /* Data.swift */; };
+		17E7199F218A082F008F1EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA415213D8DDF0055C300 /* AppDelegate.swift */; };
+		17E719A0218A0861008F1EA1 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA42D213D8E2E0055C300 /* KeyboardViewController.swift */; };
 		17FBA416213D8DDF0055C300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA415213D8DDF0055C300 /* AppDelegate.swift */; };
 		17FBA418213D8DDF0055C300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA417213D8DDF0055C300 /* ViewController.swift */; };
 		17FBA41B213D8DDF0055C300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FBA419213D8DDF0055C300 /* Main.storyboard */; };
@@ -20,6 +26,8 @@
 		17FBA42E213D8E2E0055C300 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA42D213D8E2E0055C300 /* KeyboardViewController.swift */; };
 		17FBA432213D8E2E0055C300 /* vibolKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17FBA42B213D8E2E0055C300 /* vibolKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		17FBA438213D91230055C300 /* keyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17FBA437213D91230055C300 /* keyboardView.xib */; };
+		333E1E43BFD6F288044A6077 /* Pods_vibolKhmerKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66A985A8B2CE3FD318606BC /* Pods_vibolKhmerKeyboard.framework */; };
+		770A806E602831A7B68D4BD6 /* Pods_vibolKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC45A4724024DB187F307B4B /* Pods_vibolKeyboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,9 @@
 		173559782145890200716916 /* icons8-clear-symbol-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-clear-symbol-25.png"; sourceTree = "<group>"; };
 		1735597A2145894D00716916 /* icons8-happy-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-happy-filled-25.png"; sourceTree = "<group>"; };
 		1735597C21458A0E00716916 /* icons8-backspace-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-backspace-filled-25.png"; sourceTree = "<group>"; };
+		17E59AB521A059FA00E920B6 /* vibolKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vibolKeyboard.entitlements; sourceTree = "<group>"; };
+		17E59AC221A0829300E920B6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		17E719A4218A1D7E008F1EA1 /* vibolKhmerKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vibolKhmerKeyboard.entitlements; sourceTree = "<group>"; };
 		17FBA412213D8DDF0055C300 /* vibolKhmerKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibolKhmerKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FBA415213D8DDF0055C300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17FBA417213D8DDF0055C300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +76,12 @@
 		17FBA42D213D8E2E0055C300 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		17FBA42F213D8E2E0055C300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17FBA437213D91230055C300 /* keyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = keyboardView.xib; sourceTree = "<group>"; };
+		B86D77DA586FF3128247F6FC /* Pods-vibolKhmerKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibolKhmerKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibolKhmerKeyboard/Pods-vibolKhmerKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		D66A985A8B2CE3FD318606BC /* Pods_vibolKhmerKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibolKhmerKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC45A4724024DB187F307B4B /* Pods_vibolKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibolKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6169B4E6A16D7AA0AE4CD4 /* Pods-vibolKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibolKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-vibolKeyboard/Pods-vibolKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		E14790DE72B16AE332B3722A /* Pods-vibolKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibolKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibolKeyboard/Pods-vibolKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD9409B67C77E819CCAFC83 /* Pods-vibolKhmerKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibolKhmerKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-vibolKhmerKeyboard/Pods-vibolKhmerKeyboard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333E1E43BFD6F288044A6077 /* Pods_vibolKhmerKeyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770A806E602831A7B68D4BD6 /* Pods_vibolKeyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +117,8 @@
 				17FBA414213D8DDF0055C300 /* vibolKhmerKeyboard */,
 				17FBA42C213D8E2E0055C300 /* vibolKeyboard */,
 				17FBA413213D8DDF0055C300 /* Products */,
+				CC8F7BBD309D822F02B32320 /* Pods */,
+				C1B64167AF84471DF3C7215B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,12 +134,14 @@
 		17FBA414213D8DDF0055C300 /* vibolKhmerKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				17E719A4218A1D7E008F1EA1 /* vibolKhmerKeyboard.entitlements */,
 				17FBA415213D8DDF0055C300 /* AppDelegate.swift */,
 				17FBA417213D8DDF0055C300 /* ViewController.swift */,
 				17FBA419213D8DDF0055C300 /* Main.storyboard */,
 				17FBA41C213D8DE20055C300 /* Assets.xcassets */,
 				17FBA41E213D8DE20055C300 /* LaunchScreen.storyboard */,
 				17FBA421213D8DE20055C300 /* Info.plist */,
+				17E59AC221A0829300E920B6 /* Data.swift */,
 			);
 			path = vibolKhmerKeyboard;
 			sourceTree = "<group>";
@@ -126,11 +149,32 @@
 		17FBA42C213D8E2E0055C300 /* vibolKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				17E59AB521A059FA00E920B6 /* vibolKeyboard.entitlements */,
 				17FBA42D213D8E2E0055C300 /* KeyboardViewController.swift */,
 				17FBA42F213D8E2E0055C300 /* Info.plist */,
 				17FBA437213D91230055C300 /* keyboardView.xib */,
 			);
 			path = vibolKeyboard;
+			sourceTree = "<group>";
+		};
+		C1B64167AF84471DF3C7215B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC45A4724024DB187F307B4B /* Pods_vibolKeyboard.framework */,
+				D66A985A8B2CE3FD318606BC /* Pods_vibolKhmerKeyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC8F7BBD309D822F02B32320 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E14790DE72B16AE332B3722A /* Pods-vibolKeyboard.debug.xcconfig */,
+				DE6169B4E6A16D7AA0AE4CD4 /* Pods-vibolKeyboard.release.xcconfig */,
+				B86D77DA586FF3128247F6FC /* Pods-vibolKhmerKeyboard.debug.xcconfig */,
+				FBD9409B67C77E819CCAFC83 /* Pods-vibolKhmerKeyboard.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17FBA424213D8DE20055C300 /* Build configuration list for PBXNativeTarget "vibolKhmerKeyboard" */;
 			buildPhases = (
+				614A7CB8242FBA869D15538C /* [CP] Check Pods Manifest.lock */,
 				17FBA40E213D8DDF0055C300 /* Sources */,
 				17FBA40F213D8DDF0055C300 /* Frameworks */,
 				17FBA410213D8DDF0055C300 /* Resources */,
 				17FBA436213D8E2E0055C300 /* Embed App Extensions */,
+				2F473A7BA709A6CC599C8602 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17FBA433213D8E2E0055C300 /* Build configuration list for PBXNativeTarget "vibolKeyboard" */;
 			buildPhases = (
+				630157E8D60B0FE0946EF845 /* [CP] Check Pods Manifest.lock */,
 				17FBA427213D8E2E0055C300 /* Sources */,
 				17FBA428213D8E2E0055C300 /* Frameworks */,
 				17FBA429213D8E2E0055C300 /* Resources */,
@@ -185,10 +232,20 @@
 					17FBA411213D8DDF0055C300 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					17FBA42A213D8E2E0055C300 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -230,6 +287,7 @@
 				17FBA438213D91230055C300 /* keyboardView.xib in Resources */,
 				17355971214585BC00716916 /* delete.png in Resources */,
 				173559772145887D00716916 /* icons8-globe-25.png in Resources */,
+				17E59ABB21A05D6E00E920B6 /* Assets.xcassets in Resources */,
 				1735597D21458A0E00716916 /* icons8-backspace-filled-25.png in Resources */,
 				173559792145890200716916 /* icons8-clear-symbol-25.png in Resources */,
 			);
@@ -237,13 +295,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F473A7BA709A6CC599C8602 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-vibolKhmerKeyboard/Pods-vibolKhmerKeyboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibolKhmerKeyboard/Pods-vibolKhmerKeyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614A7CB8242FBA869D15538C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vibolKhmerKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		630157E8D60B0FE0946EF845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vibolKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17FBA40E213D8DDF0055C300 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E59AC421A086AF00E920B6 /* Data.swift in Sources */,
 				17FBA418213D8DDF0055C300 /* ViewController.swift in Sources */,
 				17FBA416213D8DDF0055C300 /* AppDelegate.swift in Sources */,
+				17E719A0218A0861008F1EA1 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +370,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E59AB621A05B8D00E920B6 /* ViewController.swift in Sources */,
+				17E59AC321A0829300E920B6 /* Data.swift in Sources */,
+				17E7199F218A082F008F1EA1 /* AppDelegate.swift in Sources */,
 				17FBA42E213D8E2E0055C300 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -349,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -401,9 +525,11 @@
 		};
 		17FBA425213D8DE20055C300 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86D77DA586FF3128247F6FC /* Pods-vibolKhmerKeyboard.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = vibolKhmerKeyboard/vibolKhmerKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE649726B2;
 				INFOPLIST_FILE = vibolKhmerKeyboard/Info.plist;
@@ -420,9 +546,11 @@
 		};
 		17FBA426213D8DE20055C300 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD9409B67C77E819CCAFC83 /* Pods-vibolKhmerKeyboard.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = vibolKhmerKeyboard/vibolKhmerKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE649726B2;
 				INFOPLIST_FILE = vibolKhmerKeyboard/Info.plist;
@@ -439,7 +567,10 @@
 		};
 		17FBA434213D8E2E0055C300 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E14790DE72B16AE332B3722A /* Pods-vibolKeyboard.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_ENTITLEMENTS = vibolKeyboard/vibolKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE649726B2;
 				INFOPLIST_FILE = vibolKeyboard/Info.plist;
@@ -458,7 +589,10 @@
 		};
 		17FBA435213D8E2E0055C300 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6169B4E6A16D7AA0AE4CD4 /* Pods-vibolKeyboard.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_ENTITLEMENTS = vibolKeyboard/vibolKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE649726B2;
 				INFOPLIST_FILE = vibolKeyboard/Info.plist;
