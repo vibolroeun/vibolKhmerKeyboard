@@ -16,6 +16,7 @@ class KeyboardViewController: UIInputViewController {
     var proxy: UITextDocumentProxy!
     var keyboardView: UIView!
     
+    var word: String = ""
     let realm = try! Realm()
     var todoItems: Results<Data>?
 
@@ -39,21 +40,6 @@ class KeyboardViewController: UIInputViewController {
 
         //print(Realm.Configuration.defaultConfiguration.fileURL)
         loadData()
-        //insertData()
-    }
-    
-    func insertData(){
-        let data = Data()
-        data.name = "virak roeun"
-        data.age = 10
-        
-        do {
-            try realm.write {
-                realm.add(data)
-            }
-        }catch{
-            print("Error initiazing new Realm \(error)")
-        }
     }
     
     func loadData(){
@@ -61,12 +47,6 @@ class KeyboardViewController: UIInputViewController {
         
     }
 
-    @objc func wordTap(_ sender: UITapGestureRecognizer){
-        let view = sender.view as! UIButton
-        let title = view.titleLabel?.text
-        proxy.insertText(title!)
-        
-    }
     
     func gestureButtons(){
         
@@ -121,12 +101,33 @@ class KeyboardViewController: UIInputViewController {
     
     func queryData(c: String){
       
-        let words = todoItems?.filter("name LIKE '*\(c)*'")
-        for i in 0..<wordButtons.count {
-            wordButtons[i].setTitle(words![i].name, for: .normal)
+        word = word + c
+        print(word)
+        
+        queryWords(word: word)
+        
+        
+    }
+    
+    func queryWords(word: String){
+        let words = todoItems?.filter("name LIKE '*\(word)*'")
+        let wordCount = words!.count
+        
+        
+        for i in 0..<wordCount where i < 3{
+            let label = words?[i].name
+            
+            wordButtons[i].setTitle(label , for: .normal)
             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(wordTap(_:)))
             wordButtons[i].addGestureRecognizer(tapGesture)
+            
         }
+    }
+    
+    @objc func wordTap(_ sender: UITapGestureRecognizer){
+        let view = sender.view as! UIButton
+        let title = view.titleLabel?.text
+        proxy.insertText(title!)
         
     }
     
@@ -149,6 +150,7 @@ class KeyboardViewController: UIInputViewController {
     
     @IBAction func spacePress(_ sender: UIButton) {
         let text = " "
+        queryData(c: text)
         insertTextFromButton(txt: text)
     }
     @IBAction func linePress(_ sender: UIButton) {
@@ -158,7 +160,18 @@ class KeyboardViewController: UIInputViewController {
     }
     
     @IBAction func deletePress(_ sender: Any) {
+        //var char = Array(word)
+
+        if word.count > 0 {
+            
+            word.remove(at: word.index(before: word.endIndex))
+            print(word)
+            queryWords(word: word)
+
+        }
+        
         proxy.deleteBackward()
+        
     }
     
     func insertTextFromButton(txt: String){
