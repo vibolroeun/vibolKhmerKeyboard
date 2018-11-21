@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1700DBD321A56CD40071A4D7 /* KeysButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD221A56CD40071A4D7 /* KeysButtton.swift */; };
+		1700DBD421A574C60071A4D7 /* KeysButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD221A56CD40071A4D7 /* KeysButtton.swift */; };
+		1700DBD621A575850071A4D7 /* KeysAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD521A575850071A4D7 /* KeysAttribute.swift */; };
+		1700DBD721A58D700071A4D7 /* KeysAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD521A575850071A4D7 /* KeysAttribute.swift */; };
+		1700DBD921A58E730071A4D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD821A58E730071A4D7 /* Model.swift */; };
+		1700DBDA21A58E730071A4D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD821A58E730071A4D7 /* Model.swift */; };
 		17355971214585BC00716916 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 17355970214585BC00716916 /* delete.png */; };
 		173559772145887D00716916 /* icons8-globe-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 173559762145887D00716916 /* icons8-globe-25.png */; };
 		173559792145890200716916 /* icons8-clear-symbol-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 173559782145890200716916 /* icons8-clear-symbol-25.png */; };
@@ -55,6 +61,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1700DBD221A56CD40071A4D7 /* KeysButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysButtton.swift; sourceTree = "<group>"; };
+		1700DBD521A575850071A4D7 /* KeysAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysAttribute.swift; sourceTree = "<group>"; };
+		1700DBD821A58E730071A4D7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		17355970214585BC00716916 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 		17355972214587BD00716916 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 		173559742145882100716916 /* nextkeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextkeyboard.png; sourceTree = "<group>"; };
@@ -153,6 +162,9 @@
 				17FBA42D213D8E2E0055C300 /* KeyboardViewController.swift */,
 				17FBA42F213D8E2E0055C300 /* Info.plist */,
 				17FBA437213D91230055C300 /* keyboardView.xib */,
+				1700DBD221A56CD40071A4D7 /* KeysButtton.swift */,
+				1700DBD521A575850071A4D7 /* KeysAttribute.swift */,
+				1700DBD821A58E730071A4D7 /* Model.swift */,
 			);
 			path = vibolKeyboard;
 			sourceTree = "<group>";
@@ -360,8 +372,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				17E59AC421A086AF00E920B6 /* Data.swift in Sources */,
+				1700DBD921A58E730071A4D7 /* Model.swift in Sources */,
 				17FBA418213D8DDF0055C300 /* ViewController.swift in Sources */,
+				1700DBD421A574C60071A4D7 /* KeysButtton.swift in Sources */,
 				17FBA416213D8DDF0055C300 /* AppDelegate.swift in Sources */,
+				1700DBD721A58D700071A4D7 /* KeysAttribute.swift in Sources */,
 				17E719A0218A0861008F1EA1 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,9 +386,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				17E59AB621A05B8D00E920B6 /* ViewController.swift in Sources */,
+				1700DBDA21A58E730071A4D7 /* Model.swift in Sources */,
 				17E59AC321A0829300E920B6 /* Data.swift in Sources */,
 				17E7199F218A082F008F1EA1 /* AppDelegate.swift in Sources */,
 				17FBA42E213D8E2E0055C300 /* KeyboardViewController.swift in Sources */,
+				1700DBD621A575850071A4D7 /* KeysAttribute.swift in Sources */,
+				1700DBD321A56CD40071A4D7 /* KeysButtton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
