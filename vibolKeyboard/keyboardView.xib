@@ -111,12 +111,11 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="55" id="Mv8-2d-2mi"/>
                                             </constraints>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ឈ">
                                                         <attributes>
-                                                            <color key="NSColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                             <font key="NSFont" size="12" name="KhmerSangamMN"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
@@ -146,10 +145,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="keq-eh-ccD"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w23-So-HKE">
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w23-So-HKE">
                                             <rect key="frame" x="44.5" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ឺ">
@@ -184,10 +182,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="xyq-CN-JjY"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fx-ad-u8w">
+                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fx-ad-u8w">
                                             <rect key="frame" x="88.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ែ">
@@ -222,10 +219,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="Nlp-qk-VFT"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="stv-9t-M6n">
+                                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="stv-9t-M6n">
                                             <rect key="frame" x="133" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ឬ">
@@ -260,10 +256,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="s0E-5H-sMz"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zky-vk-UFO">
+                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zky-vk-UFO">
                                             <rect key="frame" x="177" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ទ">
@@ -298,10 +293,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="qu6-2l-TVA"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzE-vy-JVV">
+                                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzE-vy-JVV">
                                             <rect key="frame" x="221.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ួ">
@@ -336,10 +330,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="qWI-4h-yq8"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fym-6e-igd">
+                                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fym-6e-igd">
                                             <rect key="frame" x="266" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="8" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ូ">
@@ -374,10 +367,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="UQt-mo-e7G"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZF-wJ-q20">
+                                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZF-wJ-q20">
                                             <rect key="frame" x="310" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ី">
@@ -412,10 +404,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="z7B-2j-LcW"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rCe-JG-9iw">
+                                        <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rCe-JG-9iw">
                                             <rect key="frame" x="354.5" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ៅ">
@@ -450,10 +441,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="YUF-If-Lfw"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zjh-L5-Jdm">
+                                        <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zjh-L5-Jdm">
                                             <rect key="frame" x="398.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ភ">
@@ -493,10 +483,9 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="rv0-IW-HZz">
                                     <rect key="frame" x="0.0" y="57" width="441" height="55"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HkL-pw-MVG" userLabel="ឆ">
+                                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HkL-pw-MVG" userLabel="ឆ">
                                             <rect key="frame" x="0.0" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ាំ">
@@ -531,10 +520,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="tTu-A5-U7G"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XjK-m5-MI4">
+                                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XjK-m5-MI4">
                                             <rect key="frame" x="44.5" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ៃ">
@@ -569,10 +557,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="e3S-IT-pSM"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JQ0-Dg-IKE">
+                                        <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JQ0-Dg-IKE">
                                             <rect key="frame" x="88.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ឌ">
@@ -608,10 +595,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="LpG-tO-ddf"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QF5-r7-YBS">
+                                        <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QF5-r7-YBS">
                                             <rect key="frame" x="133" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ធ">
@@ -646,10 +632,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="qre-3Y-GKb"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4p5-WN-CRo">
+                                        <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4p5-WN-CRo">
                                             <rect key="frame" x="177" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="អ">
@@ -684,10 +669,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="YKu-4g-usB"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U22-CR-2Nn">
+                                        <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U22-CR-2Nn">
                                             <rect key="frame" x="221.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ះ">
@@ -722,10 +706,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="bYM-eh-bUo"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRG-28-Wop">
+                                        <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRG-28-Wop">
                                             <rect key="frame" x="266" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ញ">
@@ -760,10 +743,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="fRc-dj-XNW"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kka-GG-eL7">
+                                        <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kka-GG-eL7">
                                             <rect key="frame" x="310" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="គ">
@@ -798,10 +780,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="taO-7E-BPb"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdk-bI-9Wv">
+                                        <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdk-bI-9Wv">
                                             <rect key="frame" x="354.5" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ឡ">
@@ -836,10 +817,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="Hv3-u0-rr8"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54q-Wj-4sB">
+                                        <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54q-Wj-4sB">
                                             <rect key="frame" x="398.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="៉">
@@ -880,10 +860,9 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="9tL-lN-dU1">
                                     <rect key="frame" x="0.0" y="114" width="441" height="55"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYd-Dc-Je5" userLabel="ឆ">
+                                        <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYd-Dc-Je5" userLabel="ឆ">
                                             <rect key="frame" x="0.0" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ឍ">
@@ -927,10 +906,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="dYo-8l-P75"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FDw-7I-g9g">
+                                        <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FDw-7I-g9g">
                                             <rect key="frame" x="44.5" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ឃ">
@@ -972,10 +950,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="eKY-Lr-D62"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7SN-MF-gTz">
+                                        <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7SN-MF-gTz">
                                             <rect key="frame" x="88.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ជ">
@@ -1017,10 +994,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="TH2-sL-2mO"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PXr-GK-gcv">
+                                        <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PXr-GK-gcv">
                                             <rect key="frame" x="133" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="េះ">
@@ -1062,10 +1038,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="UqY-ku-zTV"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rTA-G7-LoG">
+                                        <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rTA-G7-LoG">
                                             <rect key="frame" x="177" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ព">
@@ -1107,10 +1082,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="ES6-6o-KDQ"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Q1-QG-GNF">
+                                        <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Q1-QG-GNF">
                                             <rect key="frame" x="221.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ណ">
@@ -1151,10 +1125,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="Kvb-Zt-ofW"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RFM-Nc-9f0">
+                                        <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RFM-Nc-9f0">
                                             <rect key="frame" x="266" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ំ">
@@ -1196,10 +1169,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="VfR-22-5nt"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gAV-mu-Bez">
+                                        <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gAV-mu-Bez">
                                             <rect key="frame" x="310" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="6" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ុះ">
@@ -1234,10 +1206,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="bf5-sx-UNX"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jEV-Ng-tA9">
+                                        <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jEV-Ng-tA9">
                                             <rect key="frame" x="354.5" y="0.0" width="42" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ឿ">
@@ -1272,10 +1243,9 @@
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="TQr-Uh-c6f"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXC-b1-1o5">
+                                        <button opaque="NO" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXC-b1-1o5">
                                             <rect key="frame" x="398.5" y="0.0" width="42.5" height="55"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="ោះ">

@@ -20,6 +20,9 @@ class KeyboardViewController: UIInputViewController {
     let realm = try! Realm()
     var todoItems: Results<Data>?
 
+    let primaryUpKeys = ["ឈ", "ឹ", "ែ", "ឬ", "ទ", "ួ", "ូ", "ី", "ៅ", "ភ", "ាំ", "ៃ", "ឌ", "ធ", "អ", "ះ", "ៈ", "គ", "ឡ", "៉", "ឍ", "ឃ", "ជ", "េះ", "ព", "ណ", "ំ", "ុះ", "ឿ", "ោះ" ]
+    let primaryBottomKeys = ["ឆ", "ឺ", "េ", "រ", "ត", "យ", "ុ", "ិ", "ោ", "ផ", "ា", "ស", "ដ", "ថ", "ង", "ហ", "ញ", "ក", "ល", "់", "ឋ", "ខ", "ច", "វ", "ប", "ន", "ម", "ុំ", "ៀ", "ើ" ]
+    
 
     @IBOutlet var primaryButtons: [UIButton]!
     @IBOutlet weak var lineButton: UIButton!
@@ -40,6 +43,7 @@ class KeyboardViewController: UIInputViewController {
 
         //print(Realm.Configuration.defaultConfiguration.fileURL)
         loadData()
+        
     }
     
     func loadData(){
@@ -50,13 +54,34 @@ class KeyboardViewController: UIInputViewController {
     
     func gestureButtons(){
         
+        let style = NSMutableParagraphStyle()
+        style.alignment = NSTextAlignment.center
+        style.lineSpacing = 15.0
+        
+        style.lineBreakMode = NSLineBreakMode.byWordWrapping
+        
+        let topTitleAttributes: [NSAttributedString.Key : Any] = [
+            NSAttributedString.Key.font : UIFont.init(name: "Arial", size: 12)!,
+            NSAttributedString.Key.foregroundColor : UIColor.gray,
+            NSAttributedString.Key.paragraphStyle : style
+        ]
+        let bottomSubtitleAttributes = [
+            NSAttributedString.Key.font : UIFont.init(name: "Arial", size: 17)!,
+            NSAttributedString.Key.paragraphStyle : style
+        ]
+        
         for btn in primaryButtons {
+            
+            let primaryAttribute = NSMutableAttributedString(string: primaryUpKeys[btn.tag], attributes: topTitleAttributes)
+            primaryAttribute.append(NSAttributedString(string: "\n"))
+            primaryAttribute.append(NSAttributedString(string: primaryBottomKeys[btn.tag], attributes: bottomSubtitleAttributes))
+            btn.setAttributedTitle(primaryAttribute, for: .normal)
+           
             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(nomalTap(_:)))
                 tapGesture.numberOfTapsRequired = 1
             
             let switchupGesture = UISwipeGestureRecognizer(target: self, action: #selector(upTap(_:)))
                 switchupGesture.direction = UISwipeGestureRecognizer.Direction.up
-            
             
             let longGesture = UILongPressGestureRecognizer(target: self, action: #selector(longTap(_:)))
             longGesture.minimumPressDuration = 0.5
@@ -87,7 +112,11 @@ class KeyboardViewController: UIInputViewController {
         let txtButton = title.titleLabel?.text
         let character = String(txtButton!.suffix(1))
         queryData(c: character)
-        proxy.insertText(character)
+        
+        DispatchQueue.main.async {
+            self.proxy.insertText(character)
+        }
+        
         
     }
     
@@ -96,7 +125,10 @@ class KeyboardViewController: UIInputViewController {
         let txtButton = title.titleLabel?.text
         let character = String((txtButton!.prefix(1)))
         queryData(c: character)
-        proxy.insertText(character)
+        DispatchQueue.main.async {
+            self.proxy.insertText(character)
+        }
+        
     }
     
     func queryData(c: String){
@@ -110,6 +142,7 @@ class KeyboardViewController: UIInputViewController {
     }
     
     func queryWords(word: String){
+        clearTextButton()
         let words = todoItems?.filter("name LIKE '*\(word)*'")
         let wordCount = words!.count
         
@@ -124,10 +157,20 @@ class KeyboardViewController: UIInputViewController {
         }
     }
     
+    func clearTextButton(){
+        for button in wordButtons {
+            button.setTitle("", for: .normal)
+        }
+    }
+    
     @objc func wordTap(_ sender: UITapGestureRecognizer){
         let view = sender.view as! UIButton
         let title = view.titleLabel?.text
-        proxy.insertText(title!)
+        
+        DispatchQueue.main.async {
+            self.proxy.insertText(title!)
+        }
+        
         
     }
     
@@ -136,7 +179,10 @@ class KeyboardViewController: UIInputViewController {
         let title = sender.view as! UIButton
         let txt = title.titleLabel?.text
         
-        proxy.insertText(String((txt!.suffix(1))))
+        DispatchQueue.main.async {
+            self.proxy.insertText(String((txt!.suffix(1))))
+        }
+        
     }
     
     @objc func handleDeleteLongPress(_ sender: UILongPressGestureRecognizer){
@@ -175,8 +221,10 @@ class KeyboardViewController: UIInputViewController {
     }
     
     func insertTextFromButton(txt: String){
+        DispatchQueue.main.async {
+            self.proxy.insertText(txt)
+        }
         
-        proxy.insertText(txt)
     }
     
     func loadInterface(){
