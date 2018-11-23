@@ -16,7 +16,8 @@
                 <outlet property="deletButton" destination="QjR-35-6ip" id="l9A-tn-q5g"/>
                 <outlet property="lineButton" destination="6Sr-c8-PEq" id="hTP-rI-kbR"/>
                 <outlet property="nextKeyboardButton" destination="xaP-xT-G9s" id="eix-Zr-h9b"/>
-                <outlet property="primaryView" destination="bFl-dF-5t9" id="O7w-nv-XLy"/>
+                <outlet property="primaryView" destination="bFl-dF-5t9" id="qYf-jc-yaH"/>
+                <outlet property="viewContainer" destination="bFl-dF-5t9" id="qug-jP-ozg"/>
                 <outletCollection property="primaryButtons" destination="w23-So-HKE" collectionClass="NSMutableArray" id="mEE-9k-E4j"/>
                 <outletCollection property="primaryButtons" destination="Fym-6e-igd" collectionClass="NSMutableArray" id="Ivg-uX-8X5"/>
                 <outletCollection property="primaryButtons" destination="rCe-JG-9iw" collectionClass="NSMutableArray" id="ixN-FR-vmn"/>
@@ -1497,7 +1498,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="-72.799999999999997" y="12.593703148425789"/>
+            <point key="canvasLocation" x="-217" y="4"/>
         </view>
     </objects>
     <resources>

@@ -246,7 +246,7 @@
 						LastSwiftMigration = 1000;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -255,7 +255,7 @@
 						LastSwiftMigration = 1000;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -547,7 +547,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = vibolKhmerKeyboard/vibolKhmerKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE649726B2;
 				INFOPLIST_FILE = vibolKhmerKeyboard/Info.plist;
@@ -568,7 +567,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = vibolKhmerKeyboard/vibolKhmerKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE649726B2;
 				INFOPLIST_FILE = vibolKhmerKeyboard/Info.plist;
@@ -588,7 +586,6 @@
 			baseConfigurationReference = E14790DE72B16AE332B3722A /* Pods-vibolKeyboard.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
-				CODE_SIGN_ENTITLEMENTS = vibolKeyboard/vibolKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE649726B2;
 				INFOPLIST_FILE = vibolKeyboard/Info.plist;
@@ -610,7 +607,6 @@
 			baseConfigurationReference = DE6169B4E6A16D7AA0AE4CD4 /* Pods-vibolKeyboard.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
-				CODE_SIGN_ENTITLEMENTS = vibolKeyboard/vibolKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE649726B2;
 				INFOPLIST_FILE = vibolKeyboard/Info.plist;
