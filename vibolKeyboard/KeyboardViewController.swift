@@ -14,52 +14,13 @@ class KeyboardViewController: UIInputViewController {
     @IBOutlet weak var viewContainer: UIView!
     @IBOutlet var wordButtons: [UIButton]!
     @IBOutlet var nextKeyboardButton: UIButton!
-    
+
     @IBOutlet var primaryButtons: [UIButton]!
     @IBOutlet weak var lineButton: UIButton!
     @IBOutlet weak var deletButton: UIButton!
     
     @IBOutlet weak var changeViewButton: UIButton!
     @IBOutlet var primaryView: UIView!
-    
-    let popUpView: UIView = {
-        let view = UIView()
-        view.layer.cornerRadius = 4
-        view.clipsToBounds = true
-        view.backgroundColor = UIColor.red
-        return view
-    }()
-    
-    lazy var b1:UIButton = {
-        let b = UIButton()
-        b.setTitle("a", for: .normal)
-        b.setTitleColor(UIColor.white, for: .normal)
-        b.backgroundColor = UIColor.blue
-        return b
-    }()
-    
-    lazy var b2:UIButton = {
-        let b = UIButton()
-        b.setTitle("b", for: .normal)
-        b.setTitleColor(UIColor.black, for: .normal)
-        b.backgroundColor = UIColor.white
-        return b
-    }()
-    
-    lazy var stack:UIStackView = {
-        let s = UIStackView(frame: self.view.bounds)
-        s.axis = .horizontal
-        s.distribution = .fillEqually
-        s.alignment = .fill
-        s.spacing = 2
-        s.backgroundColor = UIColor.white
-        s.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        
-        s.addArrangedSubview(self.b1)
-        s.addArrangedSubview(self.b2)
-        
-        return s
-    }()
     
     var proxy: UITextDocumentProxy!
     var keyboardView: UIView!
@@ -78,28 +39,16 @@ class KeyboardViewController: UIInputViewController {
         loadInterface()
         proxy = textDocumentProxy as UITextDocumentProxy
         nextKeyboardButton.addTarget(self, action: #selector(UIInputViewController.advanceToNextInputMode), for: .touchUpInside)
-        
-        print(Realm.Configuration.defaultConfiguration.fileURL ?? "No file")
+        //print(Realm.Configuration.defaultConfiguration.fileURL)
         arrayUpKeys = key.primaryUpKeys
         arrayBottomKeys = key.primaryBottomKeys
         
         gestureButtons()
         deleteLongGesture()
         clearTextButton()
-        
-        
-        popUpView.addSubview(stack)
-        setupStack()
-    }
-
-    func setupStack(){
-        stack.topAnchor.constraint(equalTo: popUpView.topAnchor, constant: 0.0).isActive = true
-        stack.bottomAnchor.constraint(equalTo: popUpView.bottomAnchor, constant: 0.0).isActive = true
-        stack.rightAnchor.constraint(equalTo: popUpView.rightAnchor, constant: 0.0).isActive = true
-        stack.leftAnchor.constraint(equalTo: popUpView.leftAnchor, constant: 0.0).isActive = true
-    }
-
     
+    }
+
     func gestureButtons(){
         
         for btn in primaryButtons {
@@ -108,22 +57,29 @@ class KeyboardViewController: UIInputViewController {
                 primaryAttribute.append(NSAttributedString(string: "\n"))
                 primaryAttribute.append(NSAttributedString(string: arrayBottomKeys[btn.tag], attributes: attribute.bottomSubtitleAttributes))
             btn.setAttributedTitle(primaryAttribute, for: .normal)
+            
+            btn.layer.borderColor = UIColor(red: 204/255, green: 204/255, blue: 204/255, alpha: 1.0).cgColor
            
             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(nomalTap(_:)))
                 tapGesture.numberOfTapsRequired = 1
 
-            let switchupGesture = UISwipeGestureRecognizer(target: self, action: #selector(upTap(_:)))
-                switchupGesture.direction = UISwipeGestureRecognizer.Direction.up
+            let switchUpGesture = UISwipeGestureRecognizer(target: self, action: #selector(upTap(_:)))
+                switchUpGesture.direction = UISwipeGestureRecognizer.Direction.up
+            
+            let switchDownGesture = UISwipeGestureRecognizer(target: self, action: #selector(downTap(_:)))
+            switchDownGesture.direction = UISwipeGestureRecognizer.Direction.down
 
             let longGesture = UILongPressGestureRecognizer(target: self, action: #selector(longTap(_:)))
-                longGesture.minimumPressDuration = 0.5
+                longGesture.minimumPressDuration = 0.3
                 longGesture.numberOfTouchesRequired = 1
            
             btn.addGestureRecognizer(tapGesture)
-            btn.addGestureRecognizer(switchupGesture)
+            btn.addGestureRecognizer(switchUpGesture)
             btn.addGestureRecognizer(longGesture)
+            btn.addGestureRecognizer(switchDownGesture)
             
-            tapGesture.require(toFail: switchupGesture)
+            tapGesture.require(toFail: switchUpGesture)
+            tapGesture.require(toFail: switchDownGesture)
             tapGesture.require(toFail: longGesture)
             
         }
@@ -140,30 +96,11 @@ class KeyboardViewController: UIInputViewController {
     
     
     @objc func nomalTap(_ sender: UITapGestureRecognizer){
-        
-        
         let btn = sender.view as! UIButton
-       // convert coordinate Button to view
-        let p = view.convert(btn.frame, from: self.view)
-        let q = btn.convert(btn.frame, from: self.viewContainer)
-        
-        b1.setTitle(arrayUpKeys[btn.tag], for: .normal)
-        b2.setTitle(key.upkeys[btn.tag], for: .normal)
-        popUpView.frame = CGRect(x: p.origin.x, y: -q.origin.y+2, width: 72, height: 35)
-        self.view.addSubview(popUpView)
-        
-        
-        
-        btn.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
-        UIView.animate(withDuration: 1, animations: {
-            btn.transform = CGAffineTransform.identity
-            //popUpView.removeFromSuperview()
-        }, completion: nil)
-        
-        
+
         if let txtButton = btn.titleLabel?.text {
             let character = String(txtButton.suffix(1))
-            model.conbaineChar(char: Character(character))
+            model.conbaineChar(char: character)
             self.proxy.insertText(character)
         }
         
@@ -173,16 +110,33 @@ class KeyboardViewController: UIInputViewController {
 
     @objc func upTap(_ sender: UISwipeGestureRecognizer){
         let btn = sender.view as! UIButton
-        let txtButton = btn.titleLabel?.text
-        let character = String((txtButton!.prefix(1)))
-   
-        model.conbaineChar(char: Character(character))
-        suggestionTextButton()
-        DispatchQueue.main.async {
+        
+        if let txtButton = btn.titleLabel?.text {
+            let character = String((txtButton.prefix(1)))
+            model.conbaineChar(char: character)
             self.proxy.insertText(character)
+        
         }
+    
+        suggestionTextButton()
         isSuggestWord = false
 
+    }
+    
+    @objc func downTap(_ sender: UISwipeGestureRecognizer){
+        
+        let btn = sender.view as! UIButton
+        
+        if let txtButton = btn.titleLabel?.text {
+            let txt = txtButton.suffix(1)
+            if key.isConsonants(char: String(txt)) {
+                let character = "្\(txt)"
+                
+                model.conbaineChar(char: character)
+                self.proxy.insertText(String(character))
+            }
+            
+        }
     }
     
     
@@ -228,13 +182,20 @@ class KeyboardViewController: UIInputViewController {
     
     
     @objc func longTap(_ sender: UILongPressGestureRecognizer){
-        let title = sender.view as! UIButton
-        let txt = title.titleLabel?.text
         
-        DispatchQueue.main.async {
-            self.proxy.insertText(String((txt!.suffix(1))))
+        if sender.state == .began {
+            let btn = sender.view as! UIButton
+            
+            if let txtButton = btn.titleLabel?.text {
+                let txt = txtButton.prefix(1)
+                if key.isConsonants(char: String(txt)) {
+                    let character = "្\(txt)"
+                    
+                    model.conbaineChar(char: character)
+                    self.proxy.insertText(String(character))
+                }
+            }
         }
-        
     }
     
     @objc func handleDeleteLongPress(_ sender: UILongPressGestureRecognizer){
@@ -242,36 +203,45 @@ class KeyboardViewController: UIInputViewController {
     }
     
     @IBAction func buttonsClick(_ sender: UIButton) {
-        let text:Character = Character((sender.titleLabel?.text)!)
+        let text:String = String((sender.titleLabel?.text)!)
         insertTextFromButton(txt: text)
     }
     
     @IBAction func spacePress(_ sender: UIButton) {
-        let text:Character = " "
+        let text:String = " "
         model.conbaineChar(char: text)
         suggestionTextButton()
         insertTextFromButton(txt: text)
     }
     @IBAction func linePress(_ sender: UIButton) {
-        let text:Character = "\n"
+        let text:String = "\n"
         insertTextFromButton(txt: text)
         
     }
     
     @IBAction func deletePress(_ sender: Any) {
         clearTextButton()
-        model.removeLastChar()
         if !isSuggestWord {
             suggestionTextButton()
         }
         
-        proxy.deleteBackward()
-        
+        if model.word.count > 0 {
+            if key.isSmallConsonants(char: model.word.last!) {
+                for _ in 0..<2{
+                    proxy.deleteBackward()
+                }
+            }else {
+                proxy.deleteBackward()
+            }
+            model.removeLastChar()
+        }else{
+            proxy.deleteBackward()
+        }
     }
-    
-    func insertTextFromButton(txt: Character){
+
+    func insertTextFromButton(txt: String){
         DispatchQueue.main.async {
-            self.proxy.insertText(String(txt))
+            self.proxy.insertText(txt)
         }
         
     }

@@ -11,22 +11,23 @@ import RealmSwift
 
 class Model {
     
-    var word = [Character]()
+    var word = [String]()
     let realm = try! Realm()
-//    var wordObjs: Results<Words>?
+
    
     init() {
-//        wordObjs = realm.objects(Words.self)
+
     }
     
     
-    func conbaineChar(char: Character){
+    func conbaineChar(char: String){
         word.append(char)
+        print(word)
     }
     
     func filterObj() -> Results<Words> {
         
-        let words = realm.objects(Words.self).filter("word LIKE '*\(String(word))*'").sorted(byKeyPath: "frequency", ascending: false)
+        let words = realm.objects(Words.self).filter("word LIKE '*\(word.joined())*'").sorted(byKeyPath: "frequency", ascending: false)
         
         return words
     }
@@ -43,7 +44,7 @@ class Model {
     func removeLastChar(){
         if word.count > 0 {
             word.remove(at: word.index(before: word.endIndex))
-            
+            print(word)
         }
 
     }

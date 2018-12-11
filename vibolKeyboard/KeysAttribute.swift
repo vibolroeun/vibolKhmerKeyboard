@@ -20,7 +20,7 @@ class KeysAttribute {
     init() {
         
         style.alignment = NSTextAlignment.center
-        style.lineSpacing = 15.0
+        style.lineSpacing = 10.0
         style.lineBreakMode = NSLineBreakMode.byWordWrapping
         
         topTitleAttributes = [
@@ -30,7 +30,8 @@ class KeysAttribute {
         ]
         
         bottomSubtitleAttributes = [
-            NSAttributedString.Key.font : UIFont.init(name: "Arial", size: 17)!,
+            NSAttributedString.Key.font : UIFont.init(name: "Arial", size: 19)!,
+            NSAttributedString.Key.foregroundColor: UIColor.black,
             NSAttributedString.Key.paragraphStyle : style
         ]
         

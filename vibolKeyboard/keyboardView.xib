@@ -55,62 +55,62 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="view">
-            <rect key="frame" x="0.0" y="0.0" width="441" height="251"/>
+            <rect key="frame" x="0.0" y="0.0" width="450" height="320"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qyX-Wh-mdj" userLabel="wordView">
-                    <rect key="frame" x="0.0" y="0.0" width="441" height="40"/>
+                    <rect key="frame" x="0.0" y="0.0" width="450" height="45"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PYT-Ck-Ycn">
-                            <rect key="frame" x="0.0" y="0.0" width="441" height="40"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PYT-Ck-Ycn">
+                            <rect key="frame" x="4" y="4" width="442" height="37"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoO-Vj-E0O">
-                                    <rect key="frame" x="0.0" y="0.0" width="141.5" height="40"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="144.5" height="37"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                    <state key="normal" title="Button">
-                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPD-Gl-75t">
-                                    <rect key="frame" x="149.5" y="0.0" width="142" height="40"/>
+                                    <rect key="frame" x="148.5" y="0.0" width="145" height="37"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                    <state key="normal" title="Button">
-                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NJ-Rh-63m">
-                                    <rect key="frame" x="299.5" y="0.0" width="141.5" height="40"/>
+                                    <rect key="frame" x="297.5" y="0.0" width="144.5" height="37"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                    <state key="normal" title="Button">
-                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                 </button>
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <constraints>
-                        <constraint firstAttribute="bottom" secondItem="PYT-Ck-Ycn" secondAttribute="bottom" id="6vU-5R-Pf0"/>
-                        <constraint firstAttribute="height" constant="40" id="Klw-Sd-12M"/>
-                        <constraint firstAttribute="trailing" secondItem="PYT-Ck-Ycn" secondAttribute="trailing" id="OHN-ed-bVR"/>
-                        <constraint firstItem="PYT-Ck-Ycn" firstAttribute="top" secondItem="qyX-Wh-mdj" secondAttribute="top" id="RZx-3a-5Xm"/>
-                        <constraint firstItem="PYT-Ck-Ycn" firstAttribute="leading" secondItem="qyX-Wh-mdj" secondAttribute="leading" id="WJH-A8-PGv"/>
+                        <constraint firstAttribute="bottom" secondItem="PYT-Ck-Ycn" secondAttribute="bottom" constant="4" id="6vU-5R-Pf0"/>
+                        <constraint firstAttribute="height" constant="45" id="Klw-Sd-12M"/>
+                        <constraint firstAttribute="trailing" secondItem="PYT-Ck-Ycn" secondAttribute="trailing" constant="4" id="OHN-ed-bVR"/>
+                        <constraint firstItem="PYT-Ck-Ycn" firstAttribute="top" secondItem="qyX-Wh-mdj" secondAttribute="top" constant="4" id="RZx-3a-5Xm"/>
+                        <constraint firstItem="PYT-Ck-Ycn" firstAttribute="leading" secondItem="qyX-Wh-mdj" secondAttribute="leading" constant="4" id="WJH-A8-PGv"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bFl-dF-5t9" userLabel="primaryView">
-                    <rect key="frame" x="0.0" y="40" width="441" height="171"/>
+                    <rect key="frame" x="0.0" y="45" width="450" height="228"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="7qc-aS-ebw">
-                            <rect key="frame" x="0.0" y="0.0" width="441" height="169"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="7qc-aS-ebw">
+                            <rect key="frame" x="2" y="0.0" width="446" height="225"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="xKI-bd-UfA">
-                                    <rect key="frame" x="0.0" y="0.0" width="441" height="55"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="xKI-bd-UfA">
+                                    <rect key="frame" x="0.0" y="0.0" width="446" height="73"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crs-kW-bms" userLabel="ឆ">
-                                            <rect key="frame" x="0.0" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="55" id="Mv8-2d-2mi"/>
+                                                <constraint firstAttribute="height" constant="56" id="Mv8-2d-2mi"/>
                                             </constraints>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -132,22 +132,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="keq-eh-ccD"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w23-So-HKE">
-                                            <rect key="frame" x="44.5" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="45" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -169,22 +165,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="xyq-CN-JjY"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fx-ad-u8w">
-                                            <rect key="frame" x="88.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="90" y="0.0" width="41.5" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -206,22 +198,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="Nlp-qk-VFT"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="stv-9t-M6n">
-                                            <rect key="frame" x="133" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="134.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -243,22 +231,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="s0E-5H-sMz"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zky-vk-UFO">
-                                            <rect key="frame" x="177" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="179.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -280,22 +264,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="qu6-2l-TVA"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzE-vy-JVV">
-                                            <rect key="frame" x="221.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="224.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -317,22 +297,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="qWI-4h-yq8"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fym-6e-igd">
-                                            <rect key="frame" x="266" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="269.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -354,22 +330,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="UQt-mo-e7G"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZF-wJ-q20">
-                                            <rect key="frame" x="310" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="314.5" y="0.0" width="41.5" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -391,22 +363,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="z7B-2j-LcW"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rCe-JG-9iw">
-                                            <rect key="frame" x="354.5" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="359" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -428,22 +396,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="YUF-If-Lfw"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zjh-L5-Jdm">
-                                            <rect key="frame" x="398.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="404" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -465,15 +429,11 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="NJ7-aR-WSU"/>
@@ -481,11 +441,11 @@
                                         </button>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="rv0-IW-HZz">
-                                    <rect key="frame" x="0.0" y="57" width="441" height="55"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="rv0-IW-HZz">
+                                    <rect key="frame" x="0.0" y="76" width="446" height="73"/>
                                     <subviews>
                                         <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HkL-pw-MVG" userLabel="ឆ">
-                                            <rect key="frame" x="0.0" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -507,22 +467,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="tTu-A5-U7G"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XjK-m5-MI4">
-                                            <rect key="frame" x="44.5" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="45" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -544,22 +500,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="e3S-IT-pSM"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JQ0-Dg-IKE">
-                                            <rect key="frame" x="88.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="90" y="0.0" width="41.5" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -582,22 +534,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="LpG-tO-ddf"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QF5-r7-YBS">
-                                            <rect key="frame" x="133" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="134.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -619,22 +567,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="qre-3Y-GKb"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4p5-WN-CRo">
-                                            <rect key="frame" x="177" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="179.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -656,22 +600,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="YKu-4g-usB"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U22-CR-2Nn">
-                                            <rect key="frame" x="221.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="224.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -693,22 +633,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="bYM-eh-bUo"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRG-28-Wop">
-                                            <rect key="frame" x="266" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="269.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -730,22 +666,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="fRc-dj-XNW"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kka-GG-eL7">
-                                            <rect key="frame" x="310" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="314.5" y="0.0" width="41.5" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -767,22 +699,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="taO-7E-BPb"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdk-bI-9Wv">
-                                            <rect key="frame" x="354.5" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="359" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -804,22 +732,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOflines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="Hv3-u0-rr8"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54q-Wj-4sB">
-                                            <rect key="frame" x="398.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="404" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -842,15 +766,11 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="x1q-SL-rZA"/>
@@ -858,11 +778,11 @@
                                         </button>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="9tL-lN-dU1">
-                                    <rect key="frame" x="0.0" y="114" width="441" height="55"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="9tL-lN-dU1">
+                                    <rect key="frame" x="0.0" y="152" width="446" height="73"/>
                                     <subviews>
                                         <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYd-Dc-Je5" userLabel="ឆ">
-                                            <rect key="frame" x="0.0" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -893,22 +813,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="dYo-8l-P75"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FDw-7I-g9g">
-                                            <rect key="frame" x="44.5" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="45" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -937,22 +853,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="eKY-Lr-D62"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7SN-MF-gTz">
-                                            <rect key="frame" x="88.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="90" y="0.0" width="41.5" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -981,22 +893,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="TH2-sL-2mO"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PXr-GK-gcv">
-                                            <rect key="frame" x="133" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="134.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -1025,22 +933,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="UqY-ku-zTV"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rTA-G7-LoG">
-                                            <rect key="frame" x="177" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="179.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -1069,22 +973,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="ES6-6o-KDQ"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Q1-QG-GNF">
-                                            <rect key="frame" x="221.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="224.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -1112,22 +1012,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="Kvb-Zt-ofW"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RFM-Nc-9f0">
-                                            <rect key="frame" x="266" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="269.5" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -1156,22 +1052,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="VfR-22-5nt"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gAV-mu-Bez">
-                                            <rect key="frame" x="310" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="314.5" y="0.0" width="41.5" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -1193,22 +1085,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titlelabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="bf5-sx-UNX"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jEV-Ng-tA9">
-                                            <rect key="frame" x="354.5" y="0.0" width="42" height="55"/>
+                                            <rect key="frame" x="359" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -1230,22 +1118,18 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="TQr-Uh-c6f"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXC-b1-1o5">
-                                            <rect key="frame" x="398.5" y="0.0" width="42.5" height="55"/>
+                                            <rect key="frame" x="404" y="0.0" width="42" height="73"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal">
                                                 <attributedString key="attributedTitle">
@@ -1267,15 +1151,11 @@
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="0"/>
+                                                    <integer key="value" value="4"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                                    <integer key="value" value="1"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                    <real key="value" value="0.5"/>
                                                 </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                                    <integer key="value" value="0"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustFontSizeToFitWidth" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="RNH-nz-wb6"/>
@@ -1286,225 +1166,183 @@
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <constraints>
-                        <constraint firstItem="7qc-aS-ebw" firstAttribute="leading" secondItem="bFl-dF-5t9" secondAttribute="leading" id="AmA-Mq-k3S"/>
+                        <constraint firstItem="7qc-aS-ebw" firstAttribute="leading" secondItem="bFl-dF-5t9" secondAttribute="leading" constant="2" id="AmA-Mq-k3S"/>
                         <constraint firstItem="7qc-aS-ebw" firstAttribute="top" secondItem="bFl-dF-5t9" secondAttribute="top" id="Eke-Fi-pzy"/>
-                        <constraint firstAttribute="trailing" secondItem="7qc-aS-ebw" secondAttribute="trailing" id="UJr-vT-DqU"/>
-                        <constraint firstAttribute="bottom" secondItem="7qc-aS-ebw" secondAttribute="bottom" constant="2" id="Zco-JB-mQS"/>
+                        <constraint firstAttribute="trailing" secondItem="7qc-aS-ebw" secondAttribute="trailing" constant="2" id="UJr-vT-DqU"/>
+                        <constraint firstAttribute="bottom" secondItem="7qc-aS-ebw" secondAttribute="bottom" constant="3" id="Zco-JB-mQS"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hf9-UZ-LMK" userLabel="bottomView">
-                    <rect key="frame" x="0.0" y="211" width="441" height="40"/>
+                    <rect key="frame" x="0.0" y="273" width="450" height="47"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="IVc-Ax-1bS">
-                            <rect key="frame" x="0.0" y="0.0" width="441" height="40"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="IVc-Ax-1bS">
+                            <rect key="frame" x="2" y="0.0" width="446" height="45"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j39-qa-PDK">
-                                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="45"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="40" id="N8Z-79-Iep"/>
-                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                     <state key="normal" title="១២៣">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                            <integer key="value" value="0"/>
+                                            <integer key="value" value="4"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                            <integer key="value" value="1"/>
-                                        </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="changeView:" destination="-1" eventType="touchUpInside" id="wvK-bl-2Yu"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaP-xT-G9s">
-                                    <rect key="frame" x="42" y="0.0" width="40" height="40"/>
+                                    <rect key="frame" x="54" y="0.0" width="50.5" height="45"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="40" id="Lma-eB-JJ9"/>
-                                    </constraints>
-                                    <state key="normal" image="icons8-globe-25.png">
+                                    <inset key="imageEdgeInsets" minX="12" minY="13" maxX="12" maxY="13"/>
+                                    <state key="normal" image="world.png">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                            <integer key="value" value="0"/>
+                                            <integer key="value" value="4"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlingment">
+                                        <userDefinedRuntimeAttribute type="number" keyPath="self.imageView.contentMode">
                                             <integer key="value" value="1"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
-                                    </userDefinedRuntimeAttributes>
-                                </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bX-X0-B71">
-                                    <rect key="frame" x="84" y="0.0" width="40" height="40"/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="40" id="05t-ok-P75"/>
-                                    </constraints>
-                                    <state key="normal" image="icons8-happy-filled-25.png">
-                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </state>
-                                    <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                            <integer key="value" value="0"/>
-                                        </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                            <integer key="value" value="1"/>
-                                        </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                     </userDefinedRuntimeAttributes>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eq4-YK-cy4">
-                                    <rect key="frame" x="126" y="0.0" width="40" height="40"/>
+                                    <rect key="frame" x="108.5" y="0.0" width="40" height="45"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="40" id="CsQ-JJ-FtY"/>
-                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <state key="normal" title="?">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                            <integer key="value" value="0"/>
+                                            <integer key="value" value="4"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                            <integer key="value" value="1"/>
-                                        </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="m1R-lf-x6e"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdh-bT-17w">
-                                    <rect key="frame" x="168" y="0.0" width="147" height="40"/>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdh-bT-17w">
+                                    <rect key="frame" x="152.5" y="0.0" width="141" height="45"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <state key="normal" title="ដកឃ្លា">
-                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                            <integer key="value" value="0"/>
+                                            <integer key="value" value="4"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                            <integer key="value" value="1"/>
-                                        </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="spacePress:" destination="-1" eventType="touchUpInside" id="E7m-nh-4XD"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lh1-dF-SPh">
-                                    <rect key="frame" x="317" y="0.0" width="40" height="40"/>
+                                    <rect key="frame" x="297.5" y="0.0" width="40" height="45"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="40" id="LPb-Dr-EYA"/>
-                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <state key="normal" title="។">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                            <integer key="value" value="0"/>
-                                        </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustFontSizeToFitWidth" value="YES"/>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                            <integer key="value" value="1"/>
+                                            <integer key="value" value="4"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="buttonsClick:" destination="-1" eventType="touchUpInside" id="pUV-Y8-7GV"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjR-35-6ip">
-                                    <rect key="frame" x="359" y="0.0" width="40" height="40"/>
+                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjR-35-6ip">
+                                    <rect key="frame" x="341.5" y="0.0" width="50.5" height="45"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="40" id="BzQ-xP-JA3"/>
-                                    </constraints>
-                                    <size key="titleShadowOffset" width="20" height="20"/>
-                                    <state key="normal" image="icons8-clear-symbol-25.png">
+                                    <inset key="imageEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
+                                    <size key="titleShadowOffset" width="16" height="16"/>
+                                    <state key="normal" image="delete.png">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                            <integer key="value" value="0"/>
+                                            <integer key="value" value="4"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                        <userDefinedRuntimeAttribute type="number" keyPath="self.imageView.contentMode">
                                             <integer key="value" value="1"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="deletePress:" destination="-1" eventType="touchUpInside" id="K5E-ae-dyA"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Sr-c8-PEq">
-                                    <rect key="frame" x="401" y="0.0" width="40" height="40"/>
+                                    <rect key="frame" x="396" y="0.0" width="50" height="45"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="40" id="Jz8-H9-t6i"/>
-                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
                                     <size key="titleShadowOffset" width="20" height="20"/>
-                                    <state key="normal" image="icons8-backspace-filled-25.png">
+                                    <state key="normal" image="back.png">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                            <integer key="value" value="0"/>
+                                            <integer key="value" value="4"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                        <userDefinedRuntimeAttribute type="number" keyPath="self.imageView.contentMode">
                                             <integer key="value" value="1"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="titleLabel.adjustsFontSizeToFitWidth" value="YES"/>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="linePress:" destination="-1" eventType="touchUpInside" id="Qua-Ox-mhw"/>
                                     </connections>
                                 </button>
                             </subviews>
+                            <constraints>
+                                <constraint firstItem="xaP-xT-G9s" firstAttribute="width" secondItem="j39-qa-PDK" secondAttribute="width" id="6e4-d0-GG9"/>
+                                <constraint firstItem="Lh1-dF-SPh" firstAttribute="width" secondItem="j39-qa-PDK" secondAttribute="width" multiplier="0.8:1" id="QH4-Ku-5Nd"/>
+                                <constraint firstItem="6Sr-c8-PEq" firstAttribute="width" secondItem="j39-qa-PDK" secondAttribute="width" id="aaM-mE-WX9"/>
+                                <constraint firstItem="Xdh-bT-17w" firstAttribute="width" secondItem="Eq4-YK-cy4" secondAttribute="width" multiplier="3.5:1" id="aiS-kC-djT"/>
+                                <constraint firstItem="QjR-35-6ip" firstAttribute="width" secondItem="j39-qa-PDK" secondAttribute="width" id="d6f-HZ-uUB"/>
+                                <constraint firstItem="Eq4-YK-cy4" firstAttribute="width" secondItem="j39-qa-PDK" secondAttribute="width" multiplier="0.8:1" id="rRf-Mh-zfi"/>
+                            </constraints>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="QKo-1V-XVg"/>
-                        <constraint firstItem="IVc-Ax-1bS" firstAttribute="leading" secondItem="hf9-UZ-LMK" secondAttribute="leading" id="XIf-lt-5X0"/>
-                        <constraint firstAttribute="bottom" secondItem="IVc-Ax-1bS" secondAttribute="bottom" id="XRM-Bs-ijf"/>
-                        <constraint firstAttribute="trailing" secondItem="IVc-Ax-1bS" secondAttribute="trailing" id="aqo-r1-9xT"/>
+                        <constraint firstAttribute="height" constant="47" id="QKo-1V-XVg"/>
+                        <constraint firstItem="IVc-Ax-1bS" firstAttribute="leading" secondItem="hf9-UZ-LMK" secondAttribute="leading" constant="2" id="XIf-lt-5X0"/>
+                        <constraint firstAttribute="bottom" secondItem="IVc-Ax-1bS" secondAttribute="bottom" constant="2" id="XRM-Bs-ijf"/>
+                        <constraint firstAttribute="trailing" secondItem="IVc-Ax-1bS" secondAttribute="trailing" constant="2" id="aqo-r1-9xT"/>
                         <constraint firstItem="IVc-Ax-1bS" firstAttribute="top" secondItem="hf9-UZ-LMK" secondAttribute="top" id="f0D-Nl-z71"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="hf9-UZ-LMK" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="1VL-go-2xc"/>
-                <constraint firstItem="bFl-dF-5t9" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="6QJ-j9-ioL"/>
+                <constraint firstAttribute="trailing" secondItem="bFl-dF-5t9" secondAttribute="trailing" id="9HD-Vw-Pzs"/>
                 <constraint firstItem="bFl-dF-5t9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="G0O-M7-ltt"/>
                 <constraint firstItem="qyX-Wh-mdj" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="NBX-jP-bC0"/>
+                <constraint firstItem="hf9-UZ-LMK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ONx-eh-kld"/>
                 <constraint firstItem="hf9-UZ-LMK" firstAttribute="top" secondItem="bFl-dF-5t9" secondAttribute="bottom" id="UC1-IG-mAw"/>
+                <constraint firstItem="bFl-dF-5t9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UGp-Zh-Qyf"/>
                 <constraint firstItem="bFl-dF-5t9" firstAttribute="top" secondItem="qyX-Wh-mdj" secondAttribute="bottom" id="Ul9-ud-ccu"/>
-                <constraint firstItem="hf9-UZ-LMK" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="VuF-K6-fRQ"/>
-                <constraint firstItem="bFl-dF-5t9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="b6T-no-7dZ"/>
                 <constraint firstItem="qyX-Wh-mdj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dJ2-V3-51s"/>
-                <constraint firstItem="qyX-Wh-mdj" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ezy-rw-GWe"/>
-                <constraint firstItem="hf9-UZ-LMK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="fFw-Hw-b8Y"/>
+                <constraint firstItem="qyX-Wh-mdj" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="dZS-L9-vgt"/>
+                <constraint firstAttribute="bottom" secondItem="hf9-UZ-LMK" secondAttribute="bottom" id="eN2-RP-cRz"/>
+                <constraint firstAttribute="trailing" secondItem="hf9-UZ-LMK" secondAttribute="trailing" id="qiF-k0-5N2"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="-217" y="4"/>
+            <point key="canvasLocation" x="-350" y="-124"/>
         </view>
     </objects>
     <resources>
-        <image name="icons8-backspace-filled-25.png" width="25" height="25"/>
-        <image name="icons8-clear-symbol-25.png" width="25" height="25"/>
-        <image name="icons8-globe-25.png" width="25" height="25"/>
-        <image name="icons8-happy-filled-25.png" width="25" height="25"/>
+        <image name="back.png" width="64" height="64"/>
+        <image name="delete.png" width="64" height="64"/>
+        <image name="world.png" width="64" height="64"/>
     </resources>
 </document>

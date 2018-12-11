@@ -13,17 +13,15 @@
 		1700DBD721A58D700071A4D7 /* KeysAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD521A575850071A4D7 /* KeysAttribute.swift */; };
 		1700DBD921A58E730071A4D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD821A58E730071A4D7 /* Model.swift */; };
 		1700DBDA21A58E730071A4D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700DBD821A58E730071A4D7 /* Model.swift */; };
-		17355971214585BC00716916 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 17355970214585BC00716916 /* delete.png */; };
-		173559772145887D00716916 /* icons8-globe-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 173559762145887D00716916 /* icons8-globe-25.png */; };
-		173559792145890200716916 /* icons8-clear-symbol-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 173559782145890200716916 /* icons8-clear-symbol-25.png */; };
-		1735597B2145894D00716916 /* icons8-happy-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1735597A2145894D00716916 /* icons8-happy-filled-25.png */; };
-		1735597D21458A0E00716916 /* icons8-backspace-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1735597C21458A0E00716916 /* icons8-backspace-filled-25.png */; };
 		17E59AB621A05B8D00E920B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA417213D8DDF0055C300 /* ViewController.swift */; };
 		17E59ABB21A05D6E00E920B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FBA41C213D8DE20055C300 /* Assets.xcassets */; };
 		17E59AC321A0829300E920B6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E59AC221A0829300E920B6 /* Data.swift */; };
 		17E59AC421A086AF00E920B6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E59AC221A0829300E920B6 /* Data.swift */; };
 		17E7199F218A082F008F1EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA415213D8DDF0055C300 /* AppDelegate.swift */; };
 		17E719A0218A0861008F1EA1 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA42D213D8E2E0055C300 /* KeyboardViewController.swift */; };
+		17EF072A21AA696300666A0A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EF072921AA696300666A0A /* back.png */; };
+		17EF072C21AA698000666A0A /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EF072B21AA698000666A0A /* delete.png */; };
+		17EF072E21AA69C000666A0A /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EF072D21AA69C000666A0A /* world.png */; };
 		17FBA416213D8DDF0055C300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA415213D8DDF0055C300 /* AppDelegate.swift */; };
 		17FBA418213D8DDF0055C300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA417213D8DDF0055C300 /* ViewController.swift */; };
 		17FBA41B213D8DDF0055C300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FBA419213D8DDF0055C300 /* Main.storyboard */; };
@@ -64,16 +62,12 @@
 		1700DBD221A56CD40071A4D7 /* KeysButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysButtton.swift; sourceTree = "<group>"; };
 		1700DBD521A575850071A4D7 /* KeysAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysAttribute.swift; sourceTree = "<group>"; };
 		1700DBD821A58E730071A4D7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		17355970214585BC00716916 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
-		17355972214587BD00716916 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
-		173559742145882100716916 /* nextkeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextkeyboard.png; sourceTree = "<group>"; };
-		173559762145887D00716916 /* icons8-globe-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-globe-25.png"; sourceTree = "<group>"; };
-		173559782145890200716916 /* icons8-clear-symbol-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-clear-symbol-25.png"; sourceTree = "<group>"; };
-		1735597A2145894D00716916 /* icons8-happy-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-happy-filled-25.png"; sourceTree = "<group>"; };
-		1735597C21458A0E00716916 /* icons8-backspace-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-backspace-filled-25.png"; sourceTree = "<group>"; };
 		17E59AB521A059FA00E920B6 /* vibolKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vibolKeyboard.entitlements; sourceTree = "<group>"; };
 		17E59AC221A0829300E920B6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		17E719A4218A1D7E008F1EA1 /* vibolKhmerKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vibolKhmerKeyboard.entitlements; sourceTree = "<group>"; };
+		17EF072921AA696300666A0A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		17EF072B21AA698000666A0A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		17EF072D21AA69C000666A0A /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
 		17FBA412213D8DDF0055C300 /* vibolKhmerKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibolKhmerKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FBA415213D8DDF0055C300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17FBA417213D8DDF0055C300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,16 +107,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17EF072821AA695700666A0A /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				17EF072D21AA69C000666A0A /* world.png */,
+				17EF072921AA696300666A0A /* back.png */,
+				17EF072B21AA698000666A0A /* delete.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
 		17FBA409213D8DDF0055C300 = {
 			isa = PBXGroup;
 			children = (
-				1735597C21458A0E00716916 /* icons8-backspace-filled-25.png */,
-				1735597A2145894D00716916 /* icons8-happy-filled-25.png */,
-				173559782145890200716916 /* icons8-clear-symbol-25.png */,
-				173559762145887D00716916 /* icons8-globe-25.png */,
-				173559742145882100716916 /* nextkeyboard.png */,
-				17355972214587BD00716916 /* next.png */,
-				17355970214585BC00716916 /* delete.png */,
 				17FBA414213D8DDF0055C300 /* vibolKhmerKeyboard */,
 				17FBA42C213D8E2E0055C300 /* vibolKeyboard */,
 				17FBA413213D8DDF0055C300 /* Products */,
@@ -158,6 +155,7 @@
 		17FBA42C213D8E2E0055C300 /* vibolKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				17EF072821AA695700666A0A /* icons */,
 				17E59AB521A059FA00E920B6 /* vibolKeyboard.entitlements */,
 				17FBA42D213D8E2E0055C300 /* KeyboardViewController.swift */,
 				17FBA42F213D8E2E0055C300 /* Info.plist */,
@@ -295,13 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1735597B2145894D00716916 /* icons8-happy-filled-25.png in Resources */,
 				17FBA438213D91230055C300 /* keyboardView.xib in Resources */,
-				17355971214585BC00716916 /* delete.png in Resources */,
-				173559772145887D00716916 /* icons8-globe-25.png in Resources */,
+				17EF072A21AA696300666A0A /* back.png in Resources */,
+				17EF072C21AA698000666A0A /* delete.png in Resources */,
+				17EF072E21AA69C000666A0A /* world.png in Resources */,
 				17E59ABB21A05D6E00E920B6 /* Assets.xcassets in Resources */,
-				1735597D21458A0E00716916 /* icons8-backspace-filled-25.png in Resources */,
-				173559792145890200716916 /* icons8-clear-symbol-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
